@@ -15,6 +15,18 @@ A business intelligence solution for monitoring end-to-end repair and return ope
   <img src="https://img.shields.io/badge/Data%20Modeling-Star%20Schema-orange?style=for-the-badge" alt="Data Modeling">
 </p>
 
+## Business value at a glance
+
+**Decision:** Which repair cases need escalation, and where is the return pipeline blocked?
+
+- The anonymized dashboard snapshot tracks **177 items**, including **107 open cases** across **11 suppliers**.
+- Highlights **5 open cases older than 365 days**, with the oldest open case at **407 days**.
+- Supports a prioritized follow-up queue using aging, process stage, supplier, and stock exposure.
+
+**Inspect the work:** [Executive overview](Images/01-Executive-Overview.png) · [Data model](Images/17-Data-Model.png) · [Power Query workflow](Images/18-Power-Query-Workflow.png) · [Proposed action plan](Images/15-Proposed-Team-Action-Plan.png)
+
+**Evidence boundary:** The public repository contains presentation assets and selected DAX examples. Source operational data and the PBIX are not published. These are snapshot findings and proposed decisions; no measured cycle-time reduction or financial recovery is claimed.
+
 ## 🎬 Dashboard Walkthrough
 
 ![Dashboard Walkthrough](GIFs/01-Dashboard-Walkthrough.gif)
@@ -161,7 +173,7 @@ CALCULATE(
 
 ## 💡 Business Impact
 
-The dashboard improves decision support by centralizing operational reporting, highlighting aging and bottlenecks, supporting supplier follow-up, exposing recovery opportunities, tracking forecast achievement, and connecting stock risk with the repair pipeline.
+The dashboard is designed to support operational decisions by centralizing reporting, highlighting aging and bottlenecks, and connecting supplier follow-up and stock risk with the repair pipeline. Implementation outcomes have not been measured in this portfolio.
 
 ## 🛠️ Tools & Skills
 
