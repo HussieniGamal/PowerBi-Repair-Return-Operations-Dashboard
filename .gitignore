@@ -1,0 +1,28 @@
+# Power BI temporary and recovery files
+*.pbix.autosave
+*.pbit.autosave
+*.tmp
+*.temp
+*.bak
+~$*
+
+# Microsoft Office temporary files
+*.xlsb~
+*.xlsx~
+*.lock
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and local exports
+*.log
+exports/
+temp/
